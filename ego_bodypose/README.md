@@ -105,3 +105,13 @@ python inference_for_visual.py --config_path "path/to/config" --model_path "path
 python visual/visual.py --input "path/to/result json file" --data_root_dir "path/to/data"
 ```
 
+# Citation
+
+```
+@article{chen2025pcie_pose,
+  title={PCIE\_Pose Solution for EgoExo4D Pose and Proficiency Estimation Challenge},
+  author={Chen, Feng and Lertniphonphan, Kanokphan and Yan, Qiancheng and Fan, Xiaohui and Xie, Jun and Zhang, Tao and Wang, Zhepeng},
+  journal={arXiv preprint arXiv:2505.24411},
+  year={2025}
+}
+```
