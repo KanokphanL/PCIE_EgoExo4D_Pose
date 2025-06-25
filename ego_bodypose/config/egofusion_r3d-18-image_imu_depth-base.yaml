@@ -1,0 +1,86 @@
+GPUS: '0'
+OUTPUT_DIR: 'output' # automatically change it to OUTPUT_DIR/yaml file name/timestamp /, which will store the model, log, tensorboard, and so on
+WORKERS_PARALLEL: 16
+WORKERS_DATALOADER: 16
+
+SELECT_MODEL: 'EgoVideoResnet3D'
+SELECT_OUTPUT_HEAD: ''
+
+DATASET:
+  NAME: 'BodyPoseDataset'  # 'BodyPoseDataset' or 'BodyPoseVideoDepthDataset'
+  ROOT_DIR: './data'
+  FRAME_STRIDE: 3
+  WINDOW_LENGTH: 20
+  PADDING_MODE: 'repeat' # 'zero' or 'repeat'
+  ANNOTATION_STRIDE_TRAIN: 1
+  ANNOTATION_STRIDE_VAL: 1
+  ANNOTATION_STRIDE_TRAINVAL: 1
+  MIN_JOINT_NUM: 10 # when annotated joints are less than this, the data will be ignored (@Frozen = 10, if 'USE_IMAGE_MODE' is 'downscaled') 
+  USE_ANNOTATION_MODE: 'annotation' # 'annotation' or 'automatic' or 'both' (@Frozen='annotation', if 'USE_IMAGE_MODE' is 'downscaled') 
+  USE_IMAGE_MODE: 'downscaled' # 'none' or 'fullsize' or 'downscaled'
+  VIDEO_CLIP_LEN: 4
+  IMAGE_SIZE:
+    - 224
+    - 224
+  USE_IMU: true # true for using IMU data
+  TAKE_NUM_TRAIN:
+  TAKE_NUM_VAL:
+  TAKE_NUM_TEST:
+  INPUT_DIM: # will be changed in utils_dataset.py/pre_process_camera_pose but won't take effect when called by multi-threading
+  USE_DEPTH: true
+  DEPTH_DIR: 'vis_depth_anything_base' # 'vis_depth_anything_small'
+  
+PRE_PROCESS:
+  INPUT_IMU_MODE: 'R_and_T' # 'T' or 'R_and_T' or 'imu_point' or 'imu_vector' or 'imu_vector_xyz'
+  INPUT_IMU_DIFF_INTERVAL: 1
+  INPUT_IMAGE_MODE: 'none'
+  TARGET_MODE: 'camera' # 'camera' or 'world'
+
+MODEL:
+  IMU_BACKBONE:
+    EMBED_DIM: 256
+    NHEAD: 8
+    NUM_LAYER: 3
+    DROPOUT: 0
+  IMAGE_BACKBONE:
+    TYPE: 'r3d_18' #'resnet'
+    PRETRAINED: True
+    LOCAL_PRETRAINED_PATH: null
+    EMBED_DIM: 512 # 2048
+    POOLING: 'avg' # 'avg' or 'max' or 'attn'
+  DEPTH_BACKBONE:
+    TYPE: 'r3d_18' #'resnet'
+    PRETRAINED: True
+    LOCAL_PRETRAINED_PATH: null
+    EMBED_DIM: 512 # 2048
+    POOLING: 'avg' # 'avg' or 'max' or 'attn'
+  TEMPORAL_FUSION: 
+  OUTPUT_HEAD:
+      TYPE: 'mlp' # 'transfromer_decoder'
+      FEATURE_DIM: 1280 # 256 + 512 + 512
+      HIDDEN_DIM: 256
+      DROPOUT: 0
+
+TRAIN:
+  FLAG_USE_TRAINVAL_DATASET: false # if true, use train and val dataset to train the model, otherwise use only train dataset
+  PRETRAINED_MODEL: 
+  BATCH_SIZE: 64 #16
+  SHUFFLE: true # false for test image loading
+  LOSS_CRITERION: 'MPJPELoss'
+  OPTIMIZER: 'AdamW' # 'Adam' or 'AdamW'
+  LR: 0.0001 # origin 0.0005
+  WEIGHT_DECAY: 0.001
+  LR_MIN: 0.000001 # minimum learning rate for AdamW
+
+  BEGIN_EPOCH: 0
+  END_EPOCH: 20
+  SAVE_INTERVAL: 5  # save model every SAVE_INTERVAL epochs
+  
+VAL:
+  BATCH_SIZE: 64 #16
+  LOSS_CRITERION: 'MPJPELoss'
+  SHUFFLE: false
+
+TEST:
+  BATCH_SIZE: 64 #16
+  SHUFFLE: false

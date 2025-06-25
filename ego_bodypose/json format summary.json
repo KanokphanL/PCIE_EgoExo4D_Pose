@@ -1,0 +1,1737 @@
+{
+    // `annotations/ego_pose/test or train or val/camera_pose`下的`<take_uid>.json`文件
+    "annotations/ego_pose/test/camera_pose/<take_uid>.json": {
+        "metadata": {
+            "take_name": "iiith_piano_003_7",
+            "take_uid": "00aa2cc2-b15e-4262-ac4b-620f20c25ecc"
+        },
+        "cam01": {
+            "camera_intrinsics": [
+                [
+                    1231.6970869296597,
+                    0.0,
+                    1920.0
+                ],
+                [
+                    0.0,
+                    1231.6970869296597,
+                    1080.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "camera_extrinsics": [
+                [
+                    0.48589585814412073,
+                    0.8738452133997513,
+                    0.017308505676762703,
+                    0.12007905062085095
+                ],
+                [
+                    0.2583421245509849,
+                    -0.12467433258280904,
+                    -0.957974570388441,
+                    -0.38345169723010697
+                ],
+                [
+                    -0.8349637046200886,
+                    0.4699473096494735,
+                    -0.2863297112405876,
+                    1.1005435264233654
+                ]
+            ],
+            "distortion_coeffs": [
+                0.036902,
+                0.057131,
+                -0.057154,
+                0.018458
+            ]
+        },
+        "cam02": {
+            "camera_intrinsics": [
+                [
+                    1227.6041694073358,
+                    0.0,
+                    1920.0
+                ],
+                [
+                    0.0,
+                    1227.6041694073358,
+                    1080.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "camera_extrinsics": [
+                [
+                    0.9895041956531412,
+                    -0.14395667694342162,
+                    -0.012567066539987353,
+                    -0.25229812543959124
+                ],
+                [
+                    -0.0925071967750062,
+                    -0.5642404922679239,
+                    -0.8204123710155361,
+                    -0.39343685967100994
+                ],
+                [
+                    0.11101294763604562,
+                    0.8129640306519784,
+                    -0.5716353644585798,
+                    0.8831440184110245
+                ]
+            ],
+            "distortion_coeffs": [
+                0.036902,
+                0.057131,
+                -0.057154,
+                0.018458
+            ]
+        },
+        "cam03": {
+            "camera_intrinsics": [
+                [
+                    1228.354761981502,
+                    0.0,
+                    1920.0
+                ],
+                [
+                    0.0,
+                    1228.354761981502,
+                    1080.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "camera_extrinsics": [
+                [
+                    0.6191050173739342,
+                    -0.7850330482243166,
+                    -0.020767392653229938,
+                    0.16919472542923264
+                ],
+                [
+                    -0.4033251553847525,
+                    -0.29516186152631896,
+                    -0.8661440721248442,
+                    -0.40487326476961527
+                ],
+                [
+                    0.6738226698737889,
+                    0.5446098124701572,
+                    -0.4993595785998046,
+                    0.9612731681471199
+                ]
+            ],
+            "distortion_coeffs": [
+                0.036902,
+                0.057131,
+                -0.057154,
+                0.018458
+            ]
+        },
+        "cam04": {
+            "camera_intrinsics": [
+                [
+                    1242.4873889628575,
+                    0.0,
+                    1920.0
+                ],
+                [
+                    0.0,
+                    1242.4873889628575,
+                    1080.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "camera_extrinsics": [
+                [
+                    -0.5182979656273138,
+                    -0.855150494825025,
+                    -0.00923962268496364,
+                    -0.26881650705211846
+                ],
+                [
+                    -0.3298996901184297,
+                    0.2098930661182905,
+                    -0.9203865308501347,
+                    -0.40744519804383367
+                ],
+                [
+                    0.7890081963367742,
+                    -0.47398607881571414,
+                    -0.39090118971451177,
+                    1.1846245284001995
+                ]
+            ],
+            "distortion_coeffs": [
+                0.036902,
+                0.057131,
+                -0.057154,
+                0.018458
+            ]
+        },
+        "aria01": {
+            "camera_intrinsics": [
+                [
+                    150.0,
+                    0.0,
+                    255.5
+                ],
+                [
+                    0.0,
+                    150.0,
+                    255.5
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "camera_extrinsics": {
+                "0": [
+                    [
+                        0.1305223472174559,
+                        0.3115135482177996,
+                        -0.941234946460724,
+                        -0.06731579566624796
+                    ],
+                    [
+                        0.8736601382796763,
+                        -0.4849431130117808,
+                        -0.03934636994877934,
+                        -0.09381678021846077
+                    ],
+                    [
+                        -0.4687023336977536,
+                        -0.8171838744149381,
+                        -0.33545288203061496,
+                        0.1184314449961213
+                    ]
+                ],
+                "1": [
+                    [
+                        0.13158873018351405,
+                        0.31208387988657643,
+                        -0.9408974754278797,
+                        -0.06757317008935973
+                    ],
+                    [
+                        0.8738048391552823,
+                        -0.4847441002023253,
+                        -0.03857800759366112,
+                        -0.09343405759913478
+                    ],
+                    [
+                        -0.46813407338442725,
+                        -0.8170843350430177,
+                        -0.3364872657821764,
+                        0.11806997876415204
+                    ]
+                ],
+                "2": [
+                    [
+                        0.13378190314112628,
+                        0.3119315447365626,
+                        -0.9406386733994436,
+                        -0.06783672689359026
+                    ],
+                    [
+                        0.8740817902706985,
+                        -0.4844187070085566,
+                        -0.0363254787496078,
+                        -0.09304008693687227
+                    ],
+                    [
+                        -0.46699403254615446,
+                        -0.8173354438719773,
+                        -0.3374601396643147,
+                        0.11777887949603966
+                    ]
+                ],
+                ...
+            }
+        }
+    },
+    // `annotations/ego_pose/train or val/body/annotation or automatic`下的`<take_uid>.json`文件
+    "annotations/ego_pose/train/body/annotation/<take_uid>.json": {
+        "416": [
+            {
+                "annotation3D": {
+                    "left-wrist": {
+                        "x": 2.8215123222247915,
+                        "y": 0.9125270767678643,
+                        "z": -0.5461099686088,
+                        "num_views_for_3d": 4
+                    },
+                    "left-shoulder": {
+                        "x": 2.8817295614592475,
+                        "y": 0.8702437493062196,
+                        "z": -0.04083620477218,
+                        "num_views_for_3d": 5
+                    },
+                    "right-knee": {
+                        "x": 3.092099809166267,
+                        "y": 0.9162005804104743,
+                        "z": -0.8647858150146139,
+                        "num_views_for_3d": 5
+                    },
+                    "left-elbow": {
+                        "x": 2.847328975721378,
+                        "y": 0.848678786856946,
+                        "z": -0.31695732286527595,
+                        "num_views_for_3d": 3
+                    },
+                    "right-eye": {
+                        "x": 3.03882601566793,
+                        "y": 1.0841638548952266,
+                        "z": 0.08009165747805844,
+                        "num_views_for_3d": 3
+                    },
+                    "left-eye": {
+                        "x": 2.968181350923897,
+                        "y": 1.0773701755484557,
+                        "z": 0.08804012571415798,
+                        "num_views_for_3d": 4
+                    },
+                    "right-shoulder": {
+                        "x": 3.201348769043725,
+                        "y": 0.910393243480188,
+                        "z": -0.04312085131586818,
+                        "num_views_for_3d": 5
+                    },
+                    "right-wrist": {
+                        "x": 3.2219809848263,
+                        "y": 0.9427446202818461,
+                        "z": -0.5583018559064521,
+                        "num_views_for_3d": 3
+                    },
+                    "nose": {
+                        "x": 2.997455202002938,
+                        "y": 1.0731109317060865,
+                        "z": 0.04710117953042087,
+                        "num_views_for_3d": 3
+                    },
+                    "left-ankle": {
+                        "x": 2.8958490213206303,
+                        "y": 0.8465008528300009,
+                        "z": -1.2331336600077698,
+                        "num_views_for_3d": 4
+                    },
+                    "left-hip": {
+                        "x": 2.882990632551265,
+                        "y": 0.8645220276611838,
+                        "z": -0.4736111848018116,
+                        "num_views_for_3d": 4
+                    },
+                    "left-ear": {
+                        "x": 2.9452540825530718,
+                        "y": 0.9804535297735895,
+                        "z": 0.11564475116363848,
+                        "num_views_for_3d": 3
+                    },
+                    "right-ankle": {
+                        "x": 3.1526500798133106,
+                        "y": 0.8471593250655273,
+                        "z": -1.2372371669276232,
+                        "num_views_for_3d": 4
+                    },
+                    "right-hip": {
+                        "x": 3.1723013401626785,
+                        "y": 0.8792756075535898,
+                        "z": -0.4685195180275279,
+                        "num_views_for_3d": 4
+                    },
+                    "right-elbow": {
+                        "x": 3.223329446096322,
+                        "y": 0.8750460143890718,
+                        "z": -0.3427096213092434,
+                        "num_views_for_3d": 2
+                    },
+                    "left-knee": {
+                        "x": 2.9117317079200906,
+                        "y": 0.8676423584225122,
+                        "z": -0.8677130672179112,
+                        "num_views_for_3d": 4
+                    },
+                    "right-ear": {
+                        "x": 3.0893039155553894,
+                        "y": 1.0003201432241253,
+                        "z": 0.11542285461182969,
+                        "num_views_for_3d": 2
+                    }
+                },
+                "annotation2D": {
+                    "cam05": {
+                        "left-wrist": {
+                            "x": 2182.2819170786,
+                            "y": 1081.7790882549,
+                            "placement": "manual"
+                        },
+                        "left-shoulder": {
+                            "x": 2357.8251953125,
+                            "y": 1171.3272705078,
+                            "placement": "manual"
+                        },
+                        "right-knee": {
+                            "x": 2303.0969238281,
+                            "y": 976.29827880859,
+                            "placement": "manual"
+                        },
+                        "left-elbow": {
+                            "x": 2225.4044468055,
+                            "y": 1146.4125742299,
+                            "placement": "manual"
+                        },
+                        "right-eye": {
+                            "x": 2609.967845829448,
+                            "y": 869.9148772057374,
+                            "placement": "auto"
+                        },
+                        "left-eye": {
+                            "x": 2510.5310058594,
+                            "y": 856.15386962891,
+                            "placement": "manual"
+                        },
+                        "right-shoulder": {
+                            "x": 2777.126953125,
+                            "y": 1119.01953125,
+                            "placement": "manual"
+                        },
+                        "right-wrist": {
+                            "x": 2523.161241734809,
+                            "y": 1059.9392784636104,
+                            "placement": "auto"
+                        },
+                        "nose": {
+                            "x": 2527.9513170292876,
+                            "y": 890.8943369567266,
+                            "placement": "auto"
+                        },
+                        "left-ankle": {
+                            "x": 2173.9665602630544,
+                            "y": 1103.1355233254844,
+                            "placement": "auto"
+                        },
+                        "left-hip": {
+                            "x": 2238.1278285603435,
+                            "y": 1125.3909047137938,
+                            "placement": "auto"
+                        },
+                        "left-ear": {
+                            "x": 2483.7727050781,
+                            "y": 1008.833190918,
+                            "placement": "manual"
+                        },
+                        "right-ankle": {
+                            "x": 2326.5536460763788,
+                            "y": 1105.8747040106473,
+                            "placement": "auto"
+                        },
+                        "right-hip": {
+                            "x": 2505.574870815537,
+                            "y": 1118.453079820542,
+                            "placement": "auto"
+                        },
+                        "right-elbow": {
+                            "x": 2604.143211191876,
+                            "y": 1132.4442226167894,
+                            "placement": "auto"
+                        },
+                        "left-knee": {
+                            "x": 2214.138546583998,
+                            "y": 1103.2088248025666,
+                            "placement": "auto"
+                        },
+                        "right-ear": {
+                            "x": 2709.566618742167,
+                            "y": 992.5762293358224,
+                            "placement": "auto"
+                        }
+                    },
+                    "cam02": {
+                        "left-wrist": {
+                            "x": 1889.1922607422,
+                            "y": 1106.7553710938,
+                            "placement": "manual"
+                        },
+                        "left-shoulder": {
+                            "x": 1926.8433837891,
+                            "y": 860.84197998047,
+                            "placement": "manual"
+                        },
+                        "right-knee": {
+                            "x": 2000.947265625,
+                            "y": 1218.5102539062,
+                            "placement": "manual"
+                        },
+                        "left-elbow": {
+                            "x": 1925.39453125,
+                            "y": 998.1484375,
+                            "placement": "manual"
+                        },
+                        "right-eye": {
+                            "x": 1900.1181259889183,
+                            "y": 796.841444499588,
+                            "placement": "auto"
+                        },
+                        "left-eye": {
+                            "x": 1884.7839355469,
+                            "y": 790.98895263672,
+                            "placement": "manual"
+                        },
+                        "right-shoulder": {
+                            "x": 2010.4315185547,
+                            "y": 847.66290283203,
+                            "placement": "manual"
+                        },
+                        "right-wrist": {
+                            "x": 1993.638880369787,
+                            "y": 1077.1556801794584,
+                            "placement": "auto"
+                        },
+                        "nose": {
+                            "x": 1893.3001708984,
+                            "y": 813.07849121094,
+                            "placement": "manual"
+                        },
+                        "left-ankle": {
+                            "x": 1929.8171905855,
+                            "y": 1405.6843254395,
+                            "placement": "manual"
+                        },
+                        "left-hip": {
+                            "x": 1931.8543701172,
+                            "y": 1071.2161865234,
+                            "placement": "manual"
+                        },
+                        "left-ear": {
+                            "x": 1909.5660546475,
+                            "y": 782.8451614948,
+                            "placement": "manual"
+                        },
+                        "right-ankle": {
+                            "x": 2004.0952148438,
+                            "y": 1371.1895751953,
+                            "placement": "manual"
+                        },
+                        "right-hip": {
+                            "x": 2027.0202636719,
+                            "y": 1049.0552978516,
+                            "placement": "manual"
+                        },
+                        "right-elbow": {
+                            "x": 2020.658089025253,
+                            "y": 989.6749628905206,
+                            "placement": "auto"
+                        },
+                        "left-knee": {
+                            "x": 1933.2646484375,
+                            "y": 1238.9724121094,
+                            "placement": "manual"
+                        },
+                        "right-ear": {
+                            "x": 1944.7699660404244,
+                            "y": 781.0020704624475,
+                            "placement": "auto"
+                        }
+                    },
+                    "cam01": {
+                        "left-wrist": {
+                            "x": 2012.204735389,
+                            "y": 1095.1310552598,
+                            "placement": "manual"
+                        },
+                        "left-shoulder": {
+                            "x": 2008.1143798828,
+                            "y": 854.4482421875,
+                            "placement": "manual"
+                        },
+                        "right-knee": {
+                            "x": 1941.7509765625,
+                            "y": 1200.8292236328,
+                            "placement": "manual"
+                        },
+                        "left-elbow": {
+                            "x": 2030.4526467723,
+                            "y": 986.26923656295,
+                            "placement": "manual"
+                        },
+                        "right-eye": {
+                            "x": 1886.6143798828,
+                            "y": 793.17895507812,
+                            "placement": "manual"
+                        },
+                        "left-eye": {
+                            "x": 1911.5374755859,
+                            "y": 785.90972900391,
+                            "placement": "manual"
+                        },
+                        "right-shoulder": {
+                            "x": 1908.4221191406,
+                            "y": 851.33282470703,
+                            "placement": "manual"
+                        },
+                        "right-wrist": {
+                            "x": 1892.9565429688,
+                            "y": 1065.4639892578,
+                            "placement": "manual"
+                        },
+                        "nose": {
+                            "x": 1899.0759277344,
+                            "y": 806.67895507812,
+                            "placement": "manual"
+                        },
+                        "left-ankle": {
+                            "x": 2004.7115478516,
+                            "y": 1369.2486572266,
+                            "placement": "manual"
+                        },
+                        "left-hip": {
+                            "x": 1998.4155273438,
+                            "y": 1052.8719482422,
+                            "placement": "manual"
+                        },
+                        "left-ear": {
+                            "x": 1954.5151367188,
+                            "y": 770.79583740234,
+                            "placement": "manual"
+                        },
+                        "right-ankle": {
+                            "x": 1938.6030273438,
+                            "y": 1329.8983154297,
+                            "placement": "manual"
+                        },
+                        "right-hip": {
+                            "x": 1914.9927978516,
+                            "y": 1049.7238769531,
+                            "placement": "manual"
+                        },
+                        "right-elbow": {
+                            "x": 1921.6550454959806,
+                            "y": 974.5939557475075,
+                            "placement": "auto"
+                        },
+                        "left-knee": {
+                            "x": 1998.0615535329,
+                            "y": 1223.9732984697,
+                            "placement": "manual"
+                        },
+                        "right-ear": {
+                            "x": 1905.4152576894637,
+                            "y": 773.0742590863224,
+                            "placement": "auto"
+                        }
+                    },
+                    "cam04": {
+                        "left-wrist": {
+                            "x": 1878.8992919922,
+                            "y": 1010.9806518555,
+                            "placement": "manual"
+                        },
+                        "left-shoulder": {
+                            "x": 1839.2821044922,
+                            "y": 792.14141845703,
+                            "placement": "manual"
+                        },
+                        "right-knee": {
+                            "x": 1779.6381835938,
+                            "y": 1167.8983154297,
+                            "placement": "manual"
+                        },
+                        "left-elbow": {
+                            "x": 1841.4825552763436,
+                            "y": 912.3570522453803,
+                            "placement": "auto"
+                        },
+                        "right-eye": {
+                            "x": 1837.8317871094,
+                            "y": 739.57049560547,
+                            "placement": "manual"
+                        },
+                        "left-eye": {
+                            "x": 1861.4418945312,
+                            "y": 734.84844970703,
+                            "placement": "manual"
+                        },
+                        "right-shoulder": {
+                            "x": 1737.1360331096,
+                            "y": 818.23575904916,
+                            "placement": "manual"
+                        },
+                        "right-wrist": {
+                            "x": 1751.4074176401,
+                            "y": 1057.9199568067,
+                            "placement": "manual"
+                        },
+                        "nose": {
+                            "x": 1851.9979248047,
+                            "y": 752.16259765625,
+                            "placement": "manual"
+                        },
+                        "left-ankle": {
+                            "x": 1855.7659198761,
+                            "y": 1284.5307414905,
+                            "placement": "manual"
+                        },
+                        "left-hip": {
+                            "x": 1844.0537109375,
+                            "y": 994.93084716797,
+                            "placement": "manual"
+                        },
+                        "left-ear": {
+                            "x": 1834.828406060241,
+                            "y": 717.4018615350141,
+                            "placement": "auto"
+                        },
+                        "right-ankle": {
+                            "x": 1781.2898887948,
+                            "y": 1322.5911531937,
+                            "placement": "manual"
+                        },
+                        "right-hip": {
+                            "x": 1758.1663818359,
+                            "y": 1009.2454223633,
+                            "placement": "manual"
+                        },
+                        "right-elbow": {
+                            "x": 1720.2656432631,
+                            "y": 954.25381073717,
+                            "placement": "manual"
+                        },
+                        "left-knee": {
+                            "x": 1847.6323242188,
+                            "y": 1153.5837402344,
+                            "placement": "manual"
+                        },
+                        "right-ear": {
+                            "x": 1789.0373535156,
+                            "y": 723.04333496094,
+                            "placement": "manual"
+                        }
+                    },
+                    "cam03": {
+                        "left-wrist": {
+                            "x": 1671.0602050351042,
+                            "y": 1049.125070915012,
+                            "placement": "auto"
+                        },
+                        "left-shoulder": {
+                            "x": 1657.7806396484,
+                            "y": 828.62127685547,
+                            "placement": "manual"
+                        },
+                        "right-knee": {
+                            "x": 1732.8933105469,
+                            "y": 1215.8070068359,
+                            "placement": "manual"
+                        },
+                        "left-elbow": {
+                            "x": 1652.8050359026072,
+                            "y": 955.2901747534977,
+                            "placement": "auto"
+                        },
+                        "right-eye": {
+                            "x": 1794.091796875,
+                            "y": 770.13793945312,
+                            "placement": "manual"
+                        },
+                        "left-eye": {
+                            "x": 1767.8141638702575,
+                            "y": 770.6180159979642,
+                            "placement": "auto"
+                        },
+                        "right-shoulder": {
+                            "x": 1767.4013671875,
+                            "y": 836.84283447266,
+                            "placement": "manual"
+                        },
+                        "right-wrist": {
+                            "x": 1790.7524198392,
+                            "y": 1088.1765103232,
+                            "placement": "manual"
+                        },
+                        "nose": {
+                            "x": 1775.0314403766934,
+                            "y": 790.3284834070973,
+                            "placement": "auto"
+                        },
+                        "left-ankle": {
+                            "x": 1666.4317626953,
+                            "y": 1338.3454589844,
+                            "placement": "manual"
+                        },
+                        "left-hip": {
+                            "x": 1655.0401611328,
+                            "y": 1014.9763793945,
+                            "placement": "manual"
+                        },
+                        "left-ear": {
+                            "x": 1726.5166626497235,
+                            "y": 756.6053839758919,
+                            "placement": "auto"
+                        },
+                        "right-ankle": {
+                            "x": 1734.9703369141,
+                            "y": 1377.8070068359,
+                            "placement": "manual"
+                        },
+                        "right-hip": {
+                            "x": 1746.8474121094,
+                            "y": 1020.4574584961,
+                            "placement": "manual"
+                        },
+                        "right-elbow": {
+                            "x": 1773.2405520085,
+                            "y": 989.80251361079,
+                            "placement": "manual"
+                        },
+                        "left-knee": {
+                            "x": 1674.7395019531,
+                            "y": 1192.9608154297,
+                            "placement": "manual"
+                        },
+                        "right-ear": {
+                            "x": 1777.8192138672,
+                            "y": 756.57739257812,
+                            "placement": "manual"
+                        }
+                    },
+                    "aria01": {
+                        "left-wrist": {
+                            "x": 498.1222568283994,
+                            "y": 300.5929957141569,
+                            "placement": "auto"
+                        },
+                        "left-shoulder": {
+                            "x": -754.8552067544093,
+                            "y": -65.09717380187837,
+                            "placement": "auto"
+                        },
+                        "right-knee": {
+                            "x": 474.49018893852076,
+                            "y": 206.44309891544373,
+                            "placement": "auto"
+                        },
+                        "left-elbow": {
+                            "x": 723.2439264305657,
+                            "y": 357.0881947461066,
+                            "placement": "auto"
+                        },
+                        "right-eye": {
+                            "x": 347.7829636588627,
+                            "y": -652.4960161740545,
+                            "placement": "auto"
+                        },
+                        "left-eye": {
+                            "x": 336.4625833080578,
+                            "y": -11.460281314234729,
+                            "placement": "auto"
+                        },
+                        "right-shoulder": {
+                            "x": -615.9418324228724,
+                            "y": 1211.5978250232129,
+                            "placement": "auto"
+                        },
+                        "right-wrist": {
+                            "x": 505.3038185461171,
+                            "y": 125.83628684285462,
+                            "placement": "auto"
+                        },
+                        "nose": {
+                            "x": 426.32278562172854,
+                            "y": 28.561147069750945,
+                            "placement": "auto"
+                        },
+                        "left-ankle": {
+                            "x": 469.48641907234526,
+                            "y": 255.95595424019015,
+                            "placement": "auto"
+                        },
+                        "left-hip": {
+                            "x": 572.8339991906751,
+                            "y": 285.9430257853562,
+                            "placement": "auto"
+                        },
+                        "left-ear": {
+                            "x": 145.0369915106459,
+                            "y": 232.24058800808905,
+                            "placement": "auto"
+                        },
+                        "right-ankle": {
+                            "x": 477.8716655415902,
+                            "y": 205.18339629225986,
+                            "placement": "auto"
+                        },
+                        "right-hip": {
+                            "x": 599.1304425543709,
+                            "y": 107.83550450670248,
+                            "placement": "auto"
+                        },
+                        "right-elbow": {
+                            "x": 739.8514182737154,
+                            "y": -36.9243339733758,
+                            "placement": "auto"
+                        },
+                        "left-knee": {
+                            "x": 488.8817701445029,
+                            "y": 256.54008199677673,
+                            "placement": "auto"
+                        },
+                        "right-ear": {
+                            "x": 165.7073524548445,
+                            "y": 526.9548114378375,
+                            "placement": "auto"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    // `annotations/splits.json`
+    "annotations/splits.json": {
+        "take_uid_to_split": {
+            "cb327cb5-3ad5-4f47-9cfa-29b4e7cc2836": "train",
+            "178ef0ae-da45-4982-bbf6-90f2cf8c9ae0": "train",
+            "19912997-45b4-4c43-8209-7599079d8eed": "train",
+            "7e70d53b-6a4c-405c-97ba-e23ed06e4f53": "test",
+            "69440a67-bb0d-40e9-87f4-a77b2bffbe78": "train",
+            "65dbec5a-5944-49cf-a9fc-22d9496885f1": "train",
+            "006661d8-fe79-4d88-9bf7-434d867ae8e8": "val"
+        },
+        "split_to_take_uids": {
+            "train": [
+                "aadfff4c-723a-4c55-b2be-be1742836ba9",
+                "51ef0477-cb8f-4930-90a0-1cfed839a453",
+                "e57e728f-f207-4a00-94d2-310e049f8822"
+            ],
+            "val": [
+                "50d9e154-36ad-429d-9c77-df331d5e72ce",
+                "cddea26a-1eac-4176-a541-fa38ca70a214"
+            ],
+            "test": [
+                "7e70d53b-6a4c-405c-97ba-e23ed06e4f53",
+                "f3b3b3b4-0b3b-4b3b-8b3b-2b3b3b3b3b3b"
+            ]
+        },
+        "take_uid_to_benchmark": {
+            "77cd56fc-6b68-4c7f-814b-81545484dd2d": [
+                "atomic_action_descriptions",
+                "correspondence",
+                "ego_hand_pose",
+                "ego_handpose",
+                "ego_pose",
+                "egohandpose",
+                "egopose",
+                "expert_commentary",
+                "hand_pose",
+                "handpose",
+                "keystep",
+                "proficiency",
+                "proficiency_demonstration",
+                "relations",
+                "translation"
+            ],
+            "80f65504-a37a-4c84-8a19-df3bba123326": [
+                "atomic_action_descriptions",
+                "body_pose",
+                "bodypose",
+                "correspondence",
+                "ego_body_pose",
+                "ego_bodypose",
+                "ego_hand_pose",
+                "ego_handpose",
+                "ego_pose",
+                "egobodypose",
+                "egohandpose",
+                "egopose",
+                "expert_commentary",
+                "hand_pose",
+                "handpose",
+                "keystep",
+                "proficiency",
+                "proficiency_demonstration",
+                "relations",
+                "translation"
+            ]
+        },
+        "ds": "20240404_08:13:53"
+    },
+    // aria01_211-1 双眼球视频
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/aria01_211-1.mp4": {},
+    // aria01_214-1 视线方向彩色视频
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/aria01_214-1.mp4": {},
+    // aria01_1201-1 左眼单色视频
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/aria01_1201-1.mp4": {},
+    // aria01_1201-2 右眼单色视频
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/aria01_1201-2.mp4": {},
+    // 有的没有cam02，有的多个cam05，有的cam05是固定俯视视角，有的cam05是移动的俯视视角
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/cam01.mp4": {},
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/cam02.mp4": {},
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/cam03.mp4": {},
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/cam04.mp4": {},
+    // 所有视频合成 preview 视频
+    "takes/cmu_bike01_2/frame_aligned_videos/downscaled/448/ego_preview.mp4": {},
+    // captures.json
+    "captures.json": [
+        {
+            "root_dir": "captures/cmu_bike01",
+            "capture_name": "cmu_bike01",
+            "capture_uid": "d37b73eb-fa42-43a6-8115-56832996ebd7",
+            "university_name": "cmu",
+            "origin_capture_id": "bike01",
+            "physical_setting_uid": 97,
+            "ds_recorded": 1689793200,
+            "has_trajectory": true,
+            "has_gaze": true,
+            "has_postsurvey": true,
+            "cameras": [
+                {
+                    "cam_id": "aria01",
+                    "is_ego": true,
+                    "has_walkaround": true,
+                    "includes_audio": true,
+                    "device_type": "aria",
+                    "relative_path": "videos/aria01.vrs",
+                    "video_artifact_uid": "355f22a8-1796-491b-b531-118a026dd1c5"
+                },
+                {
+                    "cam_id": "cam01",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam01.mp4",
+                    "video_artifact_uid": "8c2debd0-95e1-4186-bcca-8945bd530011"
+                },
+                {
+                    "cam_id": "cam02",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam02.mp4",
+                    "video_artifact_uid": "af64afa3-c421-4214-9862-5ee22a91b3de"
+                },
+                {
+                    "cam_id": "cam03",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam03.mp4",
+                    "video_artifact_uid": "b00b5808-a8ec-4df0-a666-4d208ab3c078"
+                },
+                {
+                    "cam_id": "cam04",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam04.mp4",
+                    "video_artifact_uid": "7caeffe0-61a4-4360-aeaa-f6cd925a7d6e"
+                },
+                {
+                    "cam_id": "moblie",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/moblie.mp4",
+                    "video_artifact_uid": "20ae64bd-10a7-44ca-9c29-3e3d19a4fe6e"
+                }
+            ],
+            "timesync_uid": "f66bd964-1bc1-4da5-a55f-4d5fc770db60",
+            "timesync_validated": true,
+            "validated": true
+        },
+        {
+            "root_dir": "captures/cmu_bike02",
+            "capture_name": "cmu_bike02",
+            "capture_uid": "2a83d13f-294c-4e66-a111-148d5453e099",
+            "university_name": "cmu",
+            "origin_capture_id": "bike02",
+            "physical_setting_uid": 97,
+            "ds_recorded": 1689793200,
+            "has_trajectory": true,
+            "has_gaze": true,
+            "has_postsurvey": true,
+            "cameras": [
+                {
+                    "cam_id": "aria01",
+                    "is_ego": true,
+                    "has_walkaround": true,
+                    "includes_audio": true,
+                    "device_type": "aria",
+                    "relative_path": "videos/aria01.vrs",
+                    "video_artifact_uid": "65cd590d-65f5-47b5-a96e-87512281b623"
+                },
+                {
+                    "cam_id": "cam01",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam01.mp4",
+                    "video_artifact_uid": "32a94d17-504f-48e5-a65c-05ad667804f4"
+                },
+                {
+                    "cam_id": "cam02",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam02.mp4",
+                    "video_artifact_uid": "b3d61afb-8338-48f0-a85d-0d8704b9a10d"
+                },
+                {
+                    "cam_id": "cam03",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam03.mp4",
+                    "video_artifact_uid": "26f0cc43-869f-4de6-ad75-2533a6cb1548"
+                },
+                {
+                    "cam_id": "cam04",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/cam04.mp4",
+                    "video_artifact_uid": "374a039f-0f63-495c-bae8-af044db3beac"
+                },
+                {
+                    "cam_id": "moblie",
+                    "is_ego": false,
+                    "has_walkaround": false,
+                    "includes_audio": true,
+                    "device_type": "hero10",
+                    "relative_path": "videos/moblie.mp4",
+                    "video_artifact_uid": "1bb17769-9ec1-451c-b4b4-ad0aa0abcc42"
+                }
+            ],
+            "timesync_uid": "d928bbf6-dbda-4b0c-a4af-6c8fe49c82eb",
+            "timesync_validated": true,
+            "validated": true
+        }
+    ],
+    // metadata.json 文件
+    "metadata.json": {
+        "version": "v2",
+        "date": "240325",
+        "tasks": {
+            "0": "Unknown",
+            "1000": "Cooking",
+            "1001": "Cooking an Omelet",
+            "1002": "Cooking Scrambled Eggs",
+            "1003": "Cooking Tomato & Eggs",
+            "1004": "Cooking Noodles",
+            "1005": "Cooking Dumplings",
+            "1006": "Cooking Noodles",
+            "1007": "Cooking Pasta",
+            "1008": "Cooking Sushi Rolls",
+            "1009": "Cooking Samosas",
+            "1010": "Making Cucumber & Tomato Salad",
+            "1011": "Making Sesame-Ginger Asian Salad",
+            "1012": "Making Greek Salad",
+            "1013": "Making Coffee latte",
+            "1014": "Making Chai Tea",
+            "1015": "Making Milk Tea",
+            "1016": "Cooking Cookies",
+            "1017": "Cooking Brownies",
+            "1018": "Making White Radish & Lettuce & Tomato & Cucumber Salad",
+            "2000": "Health",
+            "2001": "Covid-19 Rapid Antigen Test",
+            "2002": "Medical Checkup - Blood Pressure Monitor",
+            "2003": "Medical Checkup - Oximeter",
+            "2004": "Health Checkup - Thermometer",
+            "2005": "First Aid - CPR",
+            "3000": "Campsite",
+            "3001": "Set up a Tent",
+            "3002": "Disassemble a Tent",
+            "4000": "Bike Repair",
+            "4001": "Remove a Wheel",
+            "4002": "Install a Wheel",
+            "4003": "Fix a Flat Tire - Replace a Bike Tube",
+            "4004": "Clean and Lubricate the Chain",
+            "4005": "Overhaul the Headset",
+            "4006": "Adjust a Rear Derailueur",
+            "5000": "Music",
+            "5001": "Playing Guitar",
+            "5002": "Playing Guitar - Scales and Arpeggios",
+            "5003": "Playing Guitar - Suzuki Books",
+            "5004": "Playing Guitar - Freeplaying",
+            "5005": "Playing Violin",
+            "5006": "Playing Violin - Scales and Arpeggios",
+            "5007": "Playing Violin - Suzuki Books",
+            "5008": "Playing Violin - Freeplaying",
+            "5009": "Playing Piano",
+            "5010": "Playing Piano - Scales and Arpeggios",
+            "5011": "Playing Piano - Suzuki Books",
+            "5012": "Playing Piano - Freeplaying",
+            "5013": "Playing Trombone",
+            "5014": "Playing Trombone - Scales",
+            "5015": "Playing Trombone - Freeplaying",
+            "5016": "Playing Trumpet",
+            "5017": "Playing Trumpet - Scales",
+            "5018": "Playing Trumpet - Freeplaying",
+            "5019": "Playing Alto-Saxophone",
+            "5020": "Playing Alto-Saxophone - Scales",
+            "5021": "Playing Alto-Saxophone - Freeplaying",
+            "6000": "Basketball",
+            "6001": "Basketball Drills - Mikan Layup",
+            "6002": "Basketball Drills - Reverse Layup",
+            "6003": "Basketball Drills - Mid-Range Jump Shooting",
+            "7000": "Rock Climbing",
+            "7001": "Los_Andes_FPC5_women",
+            "7002": "Los_Andes_FPC1_women",
+            "7003": "Los_Andes_FPC2_women",
+            "7004": "Los_Andes_FPC10_men",
+            "7005": "Los_Andes_FPC11_men",
+            "7006": "Los_Andes_FPC12_men",
+            "7007": "Los_Andes_FPC13_women",
+            "7008": "Los_Andes_FPC14_women",
+            "7009": "Los_Andes_FPC15_women",
+            "7010": "Los_Andes_FPC16_women",
+            "7011": "Los_Andes_FPC17_women",
+            "7012": "Los_Andes_FPC14_men",
+            "7013": "Los_Andes_FPC15_men",
+            "7014": "Los_Andes_FPC16_men",
+            "7015": "Los_Andes_FPC18_men",
+            "7016": "Los_Andes_FPC17_men",
+            "7017": "Los_Andes_Super_Final_men",
+            "7018": "LosAndes_V2_R1",
+            "7019": "LosAndes_V1_R1",
+            "7020": "LosAndes_V2_R2",
+            "7021": "LosAndes_V4_R1",
+            "7022": "LosAndes_V3_R1",
+            "7023": "LosAndes_V3_R2",
+            "7024": "LosAndes_V4_R2",
+            "7025": "LosAndes_V3_R3",
+            "7026": "LosAndes_V1_R2",
+            "7027": "LosAndes_V4_R3",
+            "7028": "LosAndes_V4_R4",
+            "7029": "LosAndes_V6_R1",
+            "7030": "LosAndes_V2_R3",
+            "7031": "LosAndes_V3_R4",
+            "7032": "LosAndes_V5_R1",
+            "7033": "LosAndes_V5_R2",
+            "7300": "Minnesota_RW_Casual",
+            "7301": "Minnesota_VE_Casual",
+            "8000": "Soccer",
+            "8001": "Soccer Drills - Inside Trap and Outside Play",
+            "8002": "Soccer Drills - Outside Trap and Outside Play",
+            "8003": "Soccer Drills - Dribbling",
+            "8004": "Soccer Drills - Juggling",
+            "8005": "Soccer Drills - Penalty Kick",
+            "9000": "Dance",
+            "9001": "Performing the basic choreography",
+            "9002": "Performing the advanced choreography",
+            "9003": "Teaching the basic choreography",
+            "9004": "Teaching the advanced choreography",
+            "9005": "LosAndes_Basic_Salsa",
+            "9006": "LosAndes_Intermediate_Salsa",
+            "9007": "LosAndes_Advanced_Salsa"
+        }
+    },
+    "participants.json": [
+        {
+            "participant_uid": 2,
+            "origin_participant_id": "056",
+            "university_id": "ego4d-university-sa",
+            "university_name": "uniandes",
+            "collection_date": "2023-03-09",
+            "metadata": "{\"age_range\": 29, \"gender\": \"female\", \"race_ethnicity\": \"Mixed\", \"country_born\": \"colombian\", \"field\": \"Cultural manager / Art history\", \"native_language\": null, \"home_language\": null, \"education_completed\": null, \"current_student\": null}"
+        },
+        {
+            "participant_uid": 3,
+            "origin_participant_id": "027",
+            "university_id": "ego4d-university-sa",
+            "university_name": "uniandes",
+            "collection_date": "2023-03-09",
+            "metadata": "{\"age_range\": 45, \"gender\": \"female\", \"race_ethnicity\": \"Mixed\", \"country_born\": \"colombian\", \"field\": \"designer\", \"native_language\": null, \"home_language\": null, \"education_completed\": null, \"current_student\": null}"
+        }
+    ],
+    "physical_setting.json": [
+        {
+            "origin_physical_setting_id": "bikebay01",
+            "video_source_id": 4,
+            "metadata": "{}",
+            "univ_name": "cmu",
+            "physical_uid": 97
+        },
+        {
+            "origin_physical_setting_id": "bikebay02",
+            "video_source_id": 4,
+            "metadata": "{}",
+            "univ_name": "cmu",
+            "physical_uid": 98
+        }
+    ],
+    // "tasks.json"
+    "tasks.json": [
+        {
+            "root_dir": "takes/cmu_bike01_2",
+            "take_name": "cmu_bike01_2",
+            "participant_uid": 657,
+            "is_dropped": false,
+            "objects": [],
+            "task_id": 4001,
+            "task_name": "Remove a Wheel",
+            "parent_task_id": 4000,
+            "parent_task_name": "Bike Repair",
+            "take_idx": 2,
+            "duration_sec": 110.93333333333334,
+            "best_exo": "cam04",
+            "task_start_sec": 0.28164,
+            "task_end_sec": 110.06668,
+            "task_timing_annotation_uid": "543a6b43-73ee-41d0-a45e-dbb8ce12434d",
+            "is_narrated": false,
+            "capture_uid": "d37b73eb-fa42-43a6-8115-56832996ebd7",
+            "take_uid": "ed3ec638-8363-4e1d-9851-c7936cbfad8c",
+            "take_timing_uid": "7811bafb-e625-4bd4-ab50-bf61c18e57c1",
+            "timesync_uid": "f66bd964-1bc1-4da5-a55f-4d5fc770db60",
+            "timesync_start_idx": 7170,
+            "timesync_end_idx": 10498,
+            "frame_aligned_videos": {
+                "aria01": {
+                    "slam-left": {
+                        "cam_id": "aria01",
+                        "stream_id": "1201-1",
+                        "readable_stream_id": "slam-left",
+                        "clip_uid": "c8b91224-f392-489c-b007-eba0a090df01",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_1201-1.mp4"
+                    },
+                    "slam-right": {
+                        "cam_id": "aria01",
+                        "stream_id": "1201-2",
+                        "readable_stream_id": "slam-right",
+                        "clip_uid": "025c4486-a757-4656-ae0a-601846cbcf9d",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_1201-2.mp4"
+                    },
+                    "et": {
+                        "cam_id": "aria01",
+                        "stream_id": "211-1",
+                        "readable_stream_id": "et",
+                        "clip_uid": "605b758f-ddf6-41ca-91af-8e2ee2528667",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_211-1.mp4"
+                    },
+                    "rgb": {
+                        "cam_id": "aria01",
+                        "stream_id": "214-1",
+                        "readable_stream_id": "rgb",
+                        "clip_uid": "38d880fb-8db2-4448-9327-cd2679ad95e2",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_214-1.mp4"
+                    }
+                },
+                "cam01": {
+                    "0": {
+                        "cam_id": "cam01",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "09c670c8-4c45-40f8-957d-c8717be84ef8",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam01.mp4"
+                    }
+                },
+                "cam02": {
+                    "0": {
+                        "cam_id": "cam02",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "62816cc4-2d71-4238-a566-cddd9cf38d05",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam02.mp4"
+                    }
+                },
+                "cam03": {
+                    "0": {
+                        "cam_id": "cam03",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "5253ab2d-81f7-476c-8fff-440a667384ad",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam03.mp4"
+                    }
+                },
+                "cam04": {
+                    "0": {
+                        "cam_id": "cam04",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "1a494568-4e3e-4fe2-ac67-c351621659c9",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam04.mp4"
+                    }
+                },
+                "collage": {
+                    "0": {
+                        "clip_uid": "d41bcb3e-c98d-4b5a-ade0-e36174c85474",
+                        "is_collage": true,
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "relative_path": "ego_preview.mp4"
+                    }
+                },
+                "best_exo": {
+                    "0": {
+                        "clip_uid": null,
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "is_collage": true,
+                        "relative_path": null
+                    }
+                }
+            },
+            "vrs_all_streams_relative_path": "aria01.vrs",
+            "vrs_relative_path": "aria01_noimagestreams.vrs",
+            "trimmed_eye_gaze_relative_path": "eye_gaze",
+            "trimmed_trajectory_relative_path": "trajectory",
+            "has_trimmed_eye_gaze": true,
+            "has_trimmed_trajectory": true,
+            "has_trimmed_vrs": true,
+            "university_id": "ego4d-cmu",
+            "university_name": "cmu",
+            "origin_id": "2",
+            "capture": {
+                "root_dir": "captures/cmu_bike01",
+                "capture_name": "cmu_bike01",
+                "capture_uid": "d37b73eb-fa42-43a6-8115-56832996ebd7",
+                "university_name": "cmu",
+                "origin_capture_id": "bike01",
+                "physical_setting_uid": 97,
+                "ds_recorded": 1689793200,
+                "has_trajectory": true,
+                "has_gaze": true,
+                "has_postsurvey": true,
+                "cameras": [
+                    {
+                        "cam_id": "aria01",
+                        "is_ego": true,
+                        "has_walkaround": true,
+                        "includes_audio": true,
+                        "device_type": "aria",
+                        "relative_path": "videos/aria01.vrs",
+                        "video_artifact_uid": "355f22a8-1796-491b-b531-118a026dd1c5"
+                    },
+                    {
+                        "cam_id": "cam01",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam01.mp4",
+                        "video_artifact_uid": "8c2debd0-95e1-4186-bcca-8945bd530011"
+                    },
+                    {
+                        "cam_id": "cam02",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam02.mp4",
+                        "video_artifact_uid": "af64afa3-c421-4214-9862-5ee22a91b3de"
+                    },
+                    {
+                        "cam_id": "cam03",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam03.mp4",
+                        "video_artifact_uid": "b00b5808-a8ec-4df0-a666-4d208ab3c078"
+                    },
+                    {
+                        "cam_id": "cam04",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam04.mp4",
+                        "video_artifact_uid": "7caeffe0-61a4-4360-aeaa-f6cd925a7d6e"
+                    },
+                    {
+                        "cam_id": "moblie",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/moblie.mp4",
+                        "video_artifact_uid": "20ae64bd-10a7-44ca-9c29-3e3d19a4fe6e"
+                    }
+                ],
+                "timesync_uid": "f66bd964-1bc1-4da5-a55f-4d5fc770db60",
+                "timesync_validated": true,
+                "validated": true
+            },
+            "physical_setting_uid": 97,
+            "validated": true
+        },
+        {
+            "root_dir": "takes/cmu_bike01_4",
+            "take_name": "cmu_bike01_4",
+            "participant_uid": 657,
+            "is_dropped": false,
+            "objects": [],
+            "task_id": 4003,
+            "task_name": "Fix a Flat Tire - Replace a Bike Tube",
+            "parent_task_id": 4000,
+            "parent_task_name": "Bike Repair",
+            "take_idx": 4,
+            "duration_sec": 111.23333333333333,
+            "best_exo": "cam02",
+            "task_start_sec": 0.20069,
+            "task_end_sec": 110.66667,
+            "task_timing_annotation_uid": "f4b52f93-9e45-4dad-ae05-b6f2c4dc0ade",
+            "is_narrated": false,
+            "capture_uid": "d37b73eb-fa42-43a6-8115-56832996ebd7",
+            "take_uid": "27de9577-b69b-441c-9a6f-63d286a9a640",
+            "take_timing_uid": "f5a75e8e-1da4-4387-8ed4-1ff44ff85072",
+            "timesync_uid": "f66bd964-1bc1-4da5-a55f-4d5fc770db60",
+            "timesync_start_idx": 10854,
+            "timesync_end_idx": 14191,
+            "frame_aligned_videos": {
+                "aria01": {
+                    "slam-left": {
+                        "cam_id": "aria01",
+                        "stream_id": "1201-1",
+                        "readable_stream_id": "slam-left",
+                        "clip_uid": "6dd9c46a-bbfe-4971-904c-13c1553c408b",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_1201-1.mp4"
+                    },
+                    "slam-right": {
+                        "cam_id": "aria01",
+                        "stream_id": "1201-2",
+                        "readable_stream_id": "slam-right",
+                        "clip_uid": "061fe700-e0b2-4ec2-8db2-f0a2c5bc81be",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_1201-2.mp4"
+                    },
+                    "et": {
+                        "cam_id": "aria01",
+                        "stream_id": "211-1",
+                        "readable_stream_id": "et",
+                        "clip_uid": "ee24852e-bcd6-4f77-8dcf-0c0ae021f97e",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_211-1.mp4"
+                    },
+                    "rgb": {
+                        "cam_id": "aria01",
+                        "stream_id": "214-1",
+                        "readable_stream_id": "rgb",
+                        "clip_uid": "1ce4ecbc-af7c-488c-9ada-fe3b9cdb4814",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/aria01_214-1.mp4"
+                    }
+                },
+                "cam01": {
+                    "0": {
+                        "cam_id": "cam01",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "e8d24e60-48f2-43b8-94c0-61e58fb675af",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam01.mp4"
+                    }
+                },
+                "cam02": {
+                    "0": {
+                        "cam_id": "cam02",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "afc0eb4a-2e7f-4539-a4ed-72616249bf1e",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam02.mp4"
+                    }
+                },
+                "cam03": {
+                    "0": {
+                        "cam_id": "cam03",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "e691c58a-be81-4907-a076-67073687487e",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam03.mp4"
+                    }
+                },
+                "cam04": {
+                    "0": {
+                        "cam_id": "cam04",
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "clip_uid": "d4ba1efc-3d15-4069-b934-75a15399d8bf",
+                        "is_collage": false,
+                        "relative_path": "frame_aligned_videos/cam04.mp4"
+                    }
+                },
+                "collage": {
+                    "0": {
+                        "clip_uid": "5f157b1d-4428-43fc-b165-731cae1169ae",
+                        "is_collage": true,
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "relative_path": "ego_preview.mp4"
+                    }
+                },
+                "best_exo": {
+                    "0": {
+                        "clip_uid": null,
+                        "stream_id": "0",
+                        "readable_stream_id": "0",
+                        "is_collage": true,
+                        "relative_path": null
+                    }
+                }
+            },
+            "vrs_all_streams_relative_path": "aria01.vrs",
+            "vrs_relative_path": "aria01_noimagestreams.vrs",
+            "trimmed_eye_gaze_relative_path": "eye_gaze",
+            "trimmed_trajectory_relative_path": "trajectory",
+            "has_trimmed_eye_gaze": true,
+            "has_trimmed_trajectory": true,
+            "has_trimmed_vrs": true,
+            "university_id": "ego4d-cmu",
+            "university_name": "cmu",
+            "origin_id": "4",
+            "capture": {
+                "root_dir": "captures/cmu_bike01",
+                "capture_name": "cmu_bike01",
+                "capture_uid": "d37b73eb-fa42-43a6-8115-56832996ebd7",
+                "university_name": "cmu",
+                "origin_capture_id": "bike01",
+                "physical_setting_uid": 97,
+                "ds_recorded": 1689793200,
+                "has_trajectory": true,
+                "has_gaze": true,
+                "has_postsurvey": true,
+                "cameras": [
+                    {
+                        "cam_id": "aria01",
+                        "is_ego": true,
+                        "has_walkaround": true,
+                        "includes_audio": true,
+                        "device_type": "aria",
+                        "relative_path": "videos/aria01.vrs",
+                        "video_artifact_uid": "355f22a8-1796-491b-b531-118a026dd1c5"
+                    },
+                    {
+                        "cam_id": "cam01",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam01.mp4",
+                        "video_artifact_uid": "8c2debd0-95e1-4186-bcca-8945bd530011"
+                    },
+                    {
+                        "cam_id": "cam02",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam02.mp4",
+                        "video_artifact_uid": "af64afa3-c421-4214-9862-5ee22a91b3de"
+                    },
+                    {
+                        "cam_id": "cam03",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam03.mp4",
+                        "video_artifact_uid": "b00b5808-a8ec-4df0-a666-4d208ab3c078"
+                    },
+                    {
+                        "cam_id": "cam04",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/cam04.mp4",
+                        "video_artifact_uid": "7caeffe0-61a4-4360-aeaa-f6cd925a7d6e"
+                    },
+                    {
+                        "cam_id": "moblie",
+                        "is_ego": false,
+                        "has_walkaround": false,
+                        "includes_audio": true,
+                        "device_type": "hero10",
+                        "relative_path": "videos/moblie.mp4",
+                        "video_artifact_uid": "20ae64bd-10a7-44ca-9c29-3e3d19a4fe6e"
+                    }
+                ],
+                "timesync_uid": "f66bd964-1bc1-4da5-a55f-4d5fc770db60",
+                "timesync_validated": true,
+                "validated": true
+            },
+            "physical_setting_uid": 97,
+            "validated": true
+        }
+    ],
+    // "visual_objects.json"
+    "visual_objects.json": [
+        {
+            "object_uid": "17835969-efc1-494c-a001-52dd059e6849",
+            "name": "cone",
+            "physical_setting_uid": 100,
+            "additional_metadata": "nan"
+        },
+        {
+            "object_uid": "85a9e497-34a3-44bc-8823-1bad92af7223",
+            "name": "soccer_ball",
+            "physical_setting_uid": 100,
+            "additional_metadata": "nan"
+        },
+        {
+            "object_uid": "d600fdce-6058-4195-8054-9f0e9fc1455e",
+            "name": "allen_wrench_set",
+            "physical_setting_uid": 47,
+            "additional_metadata": "nan"
+        }
+    ],
+
+    // "submission_format.json"
+    "submission format": {
+        "<take_uid>": {
+            "take_name": "takes/<take_name>",
+            "body": {
+                "<frame_number>":
+                // 大小17*3：Nose, Left-eye, Right-eye, Left-ear, Right-ear, Left-shoulder, Right-shoulder, Left-elbow, Right-elbow, Left-wrist, Right-wrist, Left-hip, Right-hip, Left-knee, Right-knee, Left-ankle, Right-ankle
+                [
+                    [<x_position_joint_1>, <y_position_joint_1>, <z_position_joint_1>
+                    ],
+                    [<x_position_joint_2>, <y_position_joint_2>, <z_position_joint_2>
+                    ],
+                    //...,
+                    [<x_position_joint_N>, <y_position_joint_N>, <z_position_joint_N>
+                    ]
+                ],
+                //...
+            }
+        }
+        // ...
+    }
+}
+}
